@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Link from 'next/link';
+
 
 export default function Home() {
   return (
@@ -10,11 +12,11 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Learning <a href="https://nextjs.org">Next.js!</a>
+          Checkout my <Link href="/posts/first-post">Blog</Link>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Next.js is a React Framework
         </p>
 
         <div className="grid">
